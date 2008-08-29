@@ -1,0 +1,8 @@
+DESCRIPTION="ASCII Art image viewer"
+HOMEPAGE="http://aa-project.sourceforge.net/aview/"
+SRC_URI="mirror://sourceforge/aa-project/${P}.tar.gz"
+PATCH_URI="mirror://portage/media-gfx/${PN}/files/${P/rc/_rc}-filename-spaces.patch"
+
+SRC_DIR="${P%rc*}"
+
+DOCS="README.flip"
