@@ -1,5 +1,5 @@
 category: Graphics
-requires: cygwin libaa1 netpbm
+requires: libaa1 netpbm
 sdesc: "ASCII art image viewer"
 ldesc: "aview is an high quality ascii-art image (PNM) browser and
 animation (FLI/FLC) player useful especially with lynx browser."
